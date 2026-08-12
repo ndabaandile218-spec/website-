@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Musgrave Avenue Guest Lodge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="siteHeader" class="solid">
+  <nav class="wrap">
+    <div class="brand"><span class="brand-name display">Musgrave Avenue Guest Lodge</span></div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="accommodation.html">Accommodation</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="location.html">Location</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <a href="https://book.nightsbridge.com/18727" class="nav-cta" target="_blank" rel="noopener">Book Now</a>
+    <button class="menu-btn" aria-label="Menu">☰</button>
+  </nav>
+</header>
+
+<section class="page-hero" style="background: url('images/staircase-reception.jpg') center/cover no-repeat;">
+  <div class="hero-overlay"></div>
+  <div class="wrap">
+    <div class="eyebrow">CONTACT / BOOK NOW</div>
+    <h1>Ready to Stay With Us?</h1>
+  </div>
+</section>
+
+<section style="padding-top:90px;">
+  <div class="wrap">
+    <div class="contact-layout">
+      <div class="contact-info">
+        <h2>Get In Touch</h2>
+        <p>Send a booking enquiry below, or reach us directly by phone, email or WhatsApp. For live rates and instant confirmation, book directly online.</p>
+        <div class="contact-detail"><b>Address</b>8 Musgrave Avenue, Musgrave, Berea, Durban 4001</div>
+        <div class="contact-detail"><b>Phone / WhatsApp</b>+27 31 201 1625</div>
+        <div class="contact-detail"><b>Email</b>info@musgraveavenue.co.za</div>
+        <a href="https://wa.me/27312011625" class="whatsapp-cta" target="_blank" rel="noopener">💬 Chat with us on WhatsApp</a>
+        <div style="margin-top:20px;">
+          <a href="https://book.nightsbridge.com/18727" class="btn btn-solid" target="_blank" rel="noopener">Book Now — Check Rates</a>
+        </div>
+      </div>
+
+      <div>
+        <form id="bookingForm">
+          <div id="formFields">
+            <div class="form-row">
+              <div class="field"><label for="name">Name</label><input type="text" id="name" required></div>
+              <div class="field"><label for="phone">Phone</label><input type="tel" id="phone" required></div>
+            </div>
+            <div class="field"><label for="email">Email</label><input type="email" id="email" required></div>
+            <div class="form-row">
+              <div class="field"><label for="checkin">Check-in</label><input type="date" id="checkin" required></div>
+              <div class="field"><label for="checkout">Check-out</label><input type="date" id="checkout" required></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="guests">Number of guests</label>
+                <select id="guests"><option>1 guest</option><option selected>2 guests</option><option>3 guests</option><option>4+ guests</option></select>
+              </div>
+              <div class="field"><label for="pref">Room preference</label>
+                <select id="pref">
+                  <option>Double/Twin Room</option>
+                  <option>Double Room</option>
+                  <option>Self-Catering Double/Twin</option>
+                  <option>Split-Level Studio</option>
+                  <option>Three-Bedroom Villa</option>
+                  <option>No preference</option>
+                </select>
+              </div>
+            </div>
+            <div class="field"><label for="message">Message</label><textarea id="message" placeholder="Anything else we should know?"></textarea></div>
+            <button type="submit" class="submit-btn">Send Booking Enquiry</button>
+            <p class="form-note">This is a demo form — enquiries aren't sent yet. Use WhatsApp or the Book Now button for a real request.</p>
+          </div>
+          <div class="form-success" id="formSuccess">
+            <h3 class="display">Enquiry received.</h3>
+            <p>We'll be in touch shortly to confirm your stay. Thank you for choosing Musgrave Avenue Guest Lodge.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fac-section-alt">
+  <div class="wrap">
+    <div class="map-frame small">
+      <iframe title="Musgrave Avenue Guest Lodge location map" src="https://www.openstreetmap.org/export/embed.html?bbox=30.9968971%2C-29.8531186%2C31.0048971%2C-29.8491186&layer=mapnik&marker=-29.8511186%2C31.0008971" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3 class="display">Musgrave Avenue Guest Lodge</h3>
+        <p>8 Musgrave Avenue, Musgrave, Berea, Durban 4001. A Georgian-style guest lodge in the heart of the city.</p>
+      </div>
+      <div class="footer-col">
+        <h4>CONTACT</h4>
+        <a href="tel:+27312011625">+27 31 201 1625</a>
+        <a href="mailto:info@musgraveavenue.co.za">info@musgraveavenue.co.za</a>
+        <a href="https://wa.me/27312011625" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
+      <div class="footer-col">
+        <h4>EXPLORE</h4>
+        <a href="accommodation.html">Accommodation</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="location.html">Location</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Musgrave Avenue Guest Lodge</span>
+      <span>8 Musgrave Avenue, Durban 4001</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const form = document.getElementById('bookingForm');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    document.getElementById('formFields').style.display = 'none';
+    document.getElementById('formSuccess').classList.add('show');
+  });
+  const ci = document.getElementById('checkin');
+  const co = document.getElementById('checkout');
+  const today = new Date();
+  const inDate = new Date(today); inDate.setDate(today.getDate()+7);
+  const outDate = new Date(today); outDate.setDate(today.getDate()+9);
+  ci.value = inDate.toISOString().split('T')[0];
+  co.value = outDate.toISOString().split('T')[0];
+</script>
+
+</body>
+</html>
